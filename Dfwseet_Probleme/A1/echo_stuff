@@ -1,0 +1,17 @@
+facultate@facultateVM:~/SO/Dfwseet_Probleme/A1$ ./copy f1 + f2 + f3 + f4 f
+facultate@facultateVM:~/SO/Dfwseet_Probleme/A1$ cat f
+123
+abc
+ABC
+456facultate@facultateVM:~/SO/Dfwseet_Probleme/A1$ echo -en ABC >f3
+facultate@facultateVM:~/SO/Dfwseet_Probleme/A1$ ./copy f1 + f2 + f3 + f4 f
+facultate@facultateVM:~/SO/Dfwseet_Probleme/A1$ cat f
+123
+abc
+ABC456facultate@facultateVM:~/SO/Dfwseet_Probleme/A1$echo -en "ABC " >f3
+facultate@facultateVM:~/SO/Dfwseet_Probleme/A1$ ./copy f1 + f2 + f3 + f4 f
+facultate@facultateVM:~/SO/Dfwseet_Probleme/A1$ cat f
+123
+abc
+facultate@facultateVM:~/SO/Dfwseet_Probleme/A1$ 
+
